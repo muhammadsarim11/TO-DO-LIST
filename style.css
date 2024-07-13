@@ -132,3 +132,52 @@ background-color: #edeaeaeb;
  transition: all ease .1s;
 
 }
+
+
+@media screen and (max-width:450px){
+
+    .row button{
+        background-color: rgb(152, 163, 174);
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        border-radius: 30px;
+        font-family:sans-serif;
+        font-size: .9rem;
+    
+      
+    }
+    .row input{
+        background-color: transparent;
+        padding: 10px 10px;
+        border: none;
+        outline: none;
+        color:rgb(46, 46, 46);
+        font-size: .8rem;
+        text-transform: capitalize;
+        font-family: sans-serif;
+        
+    }
+    ul li span{
+        position: absolute;
+      height: 35px;
+      width: 35px;
+        right: 0%;
+        top: 5px;
+        font-size: 16px;
+        line-height: 40px;
+        text-align: center;
+     transition: all ease .1s;
+     border-radius: 50px;
+    
+    }
+    .list-items li{
+        list-style: none;
+        padding:12px 8px 12px 40px ;
+        font-size: 12px;
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+    }
+}
